@@ -1,0 +1,21 @@
+$bg: #eee;
+
+body {
+    background-color: $bg;
+}
+
+.box {
+    background-color: $bg;
+    &_title {
+        color: red;
+    }
+    &_img {
+        max-width: 200px;
+    }
+    &_svg {
+        fill:brown;
+        &:hover {
+            fill:crimson;
+        }
+    }
+}
